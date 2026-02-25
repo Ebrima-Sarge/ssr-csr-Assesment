@@ -1,0 +1,64 @@
+html {
+    width: 100%;
+    max-height: 90vh;
+    background-color: darkgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: antiquewhite;
+    background-repeat: no-repeat;
+    
+    
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.selecteable-days {
+     display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between
+
+}
+
+
+
+.meals-field {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 500px;              
+height: 250px;
+}
+
+.display-checkeddays {
+     display: flex;
+    justify-content: center;
+}
+
+.generate-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+h2{
+    display: flex;
+    justify-content: center;
+
+}
+
+span{
+    font-size: larger;
+}
+
+#display-results {
+    display: flex;
+    justify-content: center;
+    background-image: url("backgound.png");
+    background-repeat: no-repeat;
+    background-image: image-set(max-height)
+};
