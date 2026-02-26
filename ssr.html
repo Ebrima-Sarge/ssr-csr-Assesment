@@ -4,9 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <link rel="stylesheet" href="ssr.css">
+    <link rel="stylesheet" href="ssr.css">
+    <script src ="ssr.js" defer></script>
 </head>
 <body>
-<script src="ssr.js" defer></script>
+    
+   <main>
+    <h1>Welcome to Mealshuffle😋</h1>
+
+    <div class = 'img' >
+        <img src="recipe.png">
+    </div>
+    
+    <h1>wondering what to cook ? Select the days you wish to cook a meal🥘!</h1>
+    <form name ="days" class = "selecteable-days" id = "selecteable days">
+        <label class = "days" for = "days"> <b> <span> Select your prefered Days!</span></b></label>
+
+        <label><input type="checkbox" value="Monday" class="day-checkbox"> Monday</label>
+        <label><input type="checkbox" value="Tuesday" class="day-checkbox"> Tuesday</label>
+        <label><input type="checkbox" value="Wednesday" class="day-checkbox"> Wednesday</label>
+        <label><input type="checkbox" value="Thursday" class="day-checkbox"> Thursday</label>
+        <label><input type="checkbox" value="Friday" class="day-checkbox"> Friday</label>
+        <label><input type="checkbox" value="Saturday" class="day-checkbox"> Saturday</label>
+        <label><input type="checkbox" value="Sunday" class="day-checkbox"> Sunday</label>
+
+        <button class = "done-button" id = "done-button" label ="Done">Reset</button> 
+    </form>
+  
+ <section class = "display-checkeddays" >
+ <div   class = "meals-field" id = "meals-field">
+ <input class = "meals-input" type="text"  placeholder="Enter meal name">
+ <input class = "meals-input" type="text"  placeholder="Enter meal name">
+ <input class = "meals-input" type="text"  placeholder="Enter meal name">
+ <input class = "meals-input" type="text"  placeholder="Enter meal name">
+ <input class = "meals-input" type="text"  placeholder="Enter meal name">
+ <input class = "meals-input" type="text"  placeholder="Enter meal name">
+</div>
+ </section>
+
+
+ <div class = "generate-button"> 
+<button id = "generate-button" label ="Generate">Generate</button> </div>
+
+</main>
+
+<div id = "display-results" > 
+
+ <h2>Here comes your Menu</h2>
+ <ul>
+
+</ul>
+
+ </div>
 </body>
 </html>
